@@ -42,4 +42,5 @@ def using_delete(a, e)
   a.delete(e)
 end 
 
-def using_delete
+def using_delete(a, i)
+  a.delete()
