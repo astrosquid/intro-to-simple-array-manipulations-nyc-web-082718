@@ -31,4 +31,15 @@ def using_insert(a, e)
 end 
 
 def using_uniq(a) 
-  a.uniq()
+  a.uniq
+end
+
+def using_flatten(a)
+  a.flatten 
+end 
+
+def using_delete(a, e)
+  a.delete(e)
+end 
+
+def using_delete
